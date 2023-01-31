@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  min-height: 70vh;
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  min-width: 50vw;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 20vw;
+    margin: 50px;
+    min-height: 80vh;
+  }
+}
+.card-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.heading {
+  color: #2d3a35;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 28px;
+}
+.zero {
+  color: #c20a72;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 28px;
+  outline: none;
+}
+.Para {
+  font-family: Roboto;
+  font-size: 18px;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
