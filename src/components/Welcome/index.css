@@ -1,0 +1,30 @@
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #f0bb03;
+  font-family: Bree Serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+.para {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.button {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  border: 0px;
+}
