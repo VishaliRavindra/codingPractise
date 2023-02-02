@@ -1,0 +1,29 @@
+.todo-item {
+  list-style-type: none;
+  width: 500px;
+  margin-bottom: 32px;
+  display: flex;
+  direction: row;
+}
+.item-title {
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+  width: 500px;
+  font-family: 'Roboto';
+}
+.button {
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px;
+  background-color: #ffffff;
+  color: #ff0b37;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  border-color: #ff0b37;
+  font-family: 'Roboto';
+  outline: none;
+}
