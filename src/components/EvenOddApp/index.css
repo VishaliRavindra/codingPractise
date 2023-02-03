@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.even-odd-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #334155;
+  height: 90vh;
+  width: 50vw;
+  border-color: #000000;
+}
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #334155, #bfe9ff);
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  padding-top: 100px;
+}
+.title {
+  font-family: Roboto;
+  font-size: 42px;
+  color: #0f172a;
+  font-weight: 600;
+}
+.description {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.button {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+}
+.desc {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #1e293b;
+  font-weight: 600;
+}
