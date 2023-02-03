@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 30vw;
+  background-image: linear-gradient(to bottom, #2b2c49, #303150, #b5b9ff);
+  border-radius: 10px;
+}
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+}
+.button {
+  background-color: #f8fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 10px;
+  border: 0px;
+  color: #303150;
+}
