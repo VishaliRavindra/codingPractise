@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.with-drawl-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 35%;
+  height: 70vh;
+  max-width: 1140px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card1 {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  height: 100px;
+  width: 100px;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.image-heading {
+  text-align: center;
+  color: #7c3aed;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.heading {
+  padding-left: 10px;
+  text-align: center;
+  color: #7c3aed;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.card2 {
+  display: flex;
+  flex-direction: row;
+}
+.balance {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 28px;
+  font-weight: 400px;
+  font-family: Roboto;
+  color: #585076;
+  width: 350px;
+}
+.balance-amt {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 28px;
+  font-weight: 400px;
+  font-family: Roboto;
+  color: #585076;
+  width: 100px;
+}
+.withdraw-para {
+  color: #c4c4c4;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.description {
+  color: #585076;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.denominations-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+}
