@@ -1,0 +1,61 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  box-shadow: 0px 4px 16px 0px;
+  height: 80vh;
+  width: 40vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.googleLogo {
+  height: 150px;
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.search-input {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 15px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px;
+}
+.search-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.search-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.delete-img {
+  width: 15px;
+  height: 15px;
+}
